@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+
+<!-- PS4 Jailbreak Host 9.00FW > Special Thanks to: @SAandtech and @LM . And everyone who contributes to the scene. Website by Mouuu twitter.com/@mour0ne -Youtube: Mouuu -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="shortcut icon" href="favicon.ico">
+<style type="text/css">
+<!--
+.Estilo5 {
+	color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.Estilo23 {color: #FFFFFF}
+.Estilo24 {font-size: 36px}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+-->
+</style>
+<head>
+<title>🎨​ PS4THEMES PERMANENT fPKG [Need Active HEN] fw 9.00 ⭐</title>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+.btn {
+background-color: #003263;
+color: white;
+width: 308px;
+height: 320px;
+padding-bottom: 5px;
+text-align: center;
+font-size: 20px;
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 8px;
+margin-right: 8px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 3px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 8px;
+}
+.btn:hover {
+background-color: #0058b1;
+}
+.btn-web {
+background-color: #076300;
+}
+.btn-web:hover {
+background-color: #18891b;
+}
+.btn-toolbox {
+background-color: #003263;
+}
+.btn-toolbox:hover {
+background-color: #0058b1;
+}
+</style><style>
+img[alt="www.000webhost.com"]{display:none;}.Estilo1 {font-size: 18px}
+.Estilo9 {
+	color: yellow;
+	text-align: center;
+}
+.Estilo15 {
+	font-size: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.Estilo17 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.Estilo18 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+</style><style>
+        /* Estilos para el cuadro de diálogo personalizado */
+        #customDialog {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #0030a1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        #customDialog button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #customDialog #firmware900 {
+            background-color: black;
+            color: white;
+        }
+        #customDialog #firmware1100 {
+            background-color: black;
+            color: white;
+        }
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+<!-- Cuadro de diálogo personalizado -->
+<div id="overlay"></div>
+<div id="customDialog">
+    <p>⚠️ Please choose your firmware version:</p>
+    <button id="firmware900">Firmware 9.00</button>
+    <button id="firmware1100">Firmware 11.00</button>
+</div>
+
+<script>
+    // Función para mostrar el cuadro de diálogo personalizado
+    function showCustomDialog() {
+        document.getElementById('customDialog').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+    }
+
+    // Mostrar el cuadro de diálogo para que el usuario elija entre 9.00 y 11.00
+    showCustomDialog();
+
+    var histlength = history.length;
+    history.go(-histlength);
+    var req = new XMLHttpRequest();
+    req.open("GET", "http://127.0.0.1:9090/status");
+    req.send();
+    req.onload = function () {
+        if (window.applicationCache.status != '0') {
+            sessionStorage.blSERVER = "yes";
+            myredirect();
+        }
+    }
+    req.onerror = function () {
+        if (window.applicationCache.status != '0') {
+            myredirect();
+        }
+    }
+
+    // Función para cerrar el cuadro de diálogo y continuar en la página actual
+    function closeDialog() {
+        document.getElementById('customDialog').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+
+    // Si elige Firmware 9.00, cerramos el diálogo y continuamos en la misma página
+    document.getElementById('firmware900').addEventListener('click', function () {
+        closeDialog();  // Cerrar el cuadro de diálogo y continuar navegando
+    });
+
+    // Si elige Firmware 11.00, redirigimos a una URL específica
+    document.getElementById('firmware1100').addEventListener('click', function () {
+        window.location.href = "https://storepkg.com/1100/index.html";  // URL para firmware 11.00
+    });
+
+    function myredirect() {
+        // No es necesario redirigir automáticamente si se elige el firmware manualmente.
+    }
+</script>
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
+</head>
+<body>
+<h1 align="center" class="Estilo15">PERMANENT CUSTOMTHEMES fPKG [Only for 9.00]<p style="font-size: 10px;">GoldHEN 2.4b16.2 or lower</p></h1>
+<a href="https://ps4themespkg.github.io"><img src="logo-themesps4.png" width="215" height="142" border="0"></a>
+<h1 id="msgs">&nbsp;</h1> 
+
+<div align="center"><p style="border: 2px solid #FCFF33; text-align:center; padding: 10px; background-color:#333333; width:919px; color: #CCCCCC; font-family: arial,helvetica; font-size: 12px; font-weight: bold;"><span class="Estilo5" style="text-align:center;">Remember:</span> <span class="Estilo21"><span class="Estilo20"><span class="Estilo14"><a  href="https://ps4xploit900.github.io" target="_blank" style="color:#FFFFFF; text-decoration:none;">Activate HEN</span></span></span><span class="Estilo22"><span class="Estilo21"><span class="Estilo9" style="color:#FFFFFF;"> to download the themes from your PS4 browser </span></a>- If the browser gives you a memory error, it is normal, <span class="Estilo23">try again</span> -</span></p>
+</div> 
+<br>
+<br>
+<button class="btn btn-toolbox" onclick=load_toolbox()> 
+<p>Windows XP </p>
+<p><span class="btn18"><img src="windowsxp-theme.png" width="295" height="165"></span><br>Download </p>
+<p><a href="https://ps4themespkg.github.io/wallpaper-windowsxp.jpg" target="_blank"></a><a href="https://ps4themespkg.github.io/wallpaper-windowsxp.jpg" target="_blank"><img src="wallpaper-icon.png" width="150" height="24" border="1" solid="#122235"></a></p>
+</button>
+
+<h1><span class="Estilo24"><a  style="color:#FFFFFF; text-decoration:none;"href="https://www.youtube.com/embed/teX2IyhJJlA?si=gvA03ICsBkjWLE7g" target="_blank" >¿ How   install or uninstall the theme? </a></span>←</h1>
+<p>--------------------------------------------------- </p>
+<h1 style="margin-top: 15px; color: yellow;"><span class="Estilo18">Special Thanks to:<a href="https://twitter.com/SAandTech" target="_blank" style="color:#FFFFFF; text-decoration: none;"> @SAandTech </a>for tool PS4Toolset And <a href="https://twitter.com/lightningmods_" target="_blank" style="text-decoration:none" class="Estilo23">@LM</a> for ReSys</span><span class="Estilo17" style="font-size: 12px"><a style="color:white; margin-left: 15px;">And everyone who contributes to the scene ...</a></span><a href="https://twitter.com/m0ur0ne" target="_blank" class="Estilo1" style="color:white; margin-left: 15px;text-decoration: none;">Themes &amp; Website by @mour0ne</a></h1>
+<script>
+function load_toolbox(){
+var script = document.createElement('script');script.src = "theme0001.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Downloading Theme Windows XP ! Please Wait ..."
+LoadedMSG="Windows XP Theme Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+</script>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('mouuu', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support Me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</body>
+</html>
